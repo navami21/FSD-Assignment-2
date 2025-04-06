@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/todo.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light m-lg-2">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.png" alt="Logo" width="70" height="70" class="d-inline-block align-text-top"> 
+            </a> <h3>To-Do List</h3>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="d-flex align-items-center ms-auto">
+                    <ul class="navbar-nav me-3 mb-2 mb-lg-0">
+                        <!-- <li class="nav-item me-3">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li> -->
+                        <!-- <li class="nav-item me-3">
+                            <a class="nav-link active" href="#"><button class="btn">To-Do</button></a>
+                        </li> -->
+                        <!-- <li class="nav-item me-3">
+                            <a class="nav-link active" href="#">About</a>
+                        </li> -->
+                    </ul>
+                    <a href="index.html">
+                    <button class="btn">Log out</button>
+                </a>
+                </div>
+            </div>
+        </div>  
+    </nav>
+    <div class="container">
+        <div class="todo-container mx-auto my-4 px-3 px-md-4">
+          <h2>Your Tasks</h2>
+          <div id="todo-container"></div>
+        </div>
+    </div>      
+    <script src="js/todos.js"></script>
+    </body>
+    </html>
